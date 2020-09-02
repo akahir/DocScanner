@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import mapper
 
-image = cv2.imread('test_img.jpg')
+image = cv2.imread("test_img.jpg")
 image = cv2.resize(image,(1300,800))
 orig=image.copy()
 
